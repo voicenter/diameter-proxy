@@ -1,0 +1,29 @@
+{
+  "name": "diameter-proxy",
+  "version": "1.0.0",
+  "description": "web rest api for diameter request from applicaion that need to auth ther client infront of hss server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voicenter/diameter-proxy.git"
+  },
+  "keywords": [
+    "diameter-proxy",
+    "hss",
+    "volte",
+    "epc"
+  ],
+  "author": "Shlomi Gutman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voicenter/diameter-proxy/issues"
+  },
+  "homepage": "https://github.com/voicenter/diameter-proxy#readme",
+  "dependencies": {
+    "diameter": "^0.10.2",
+    "fastify": "^2.12.1"
+  }
+}
